@@ -491,7 +491,7 @@ sup{
     border: none;
     color: var(---font-color);
     position: absolute;
-    top: 65%;
+    top: 78%;
     transform: translateX(20px);
     z-index: 1;
 }
@@ -602,6 +602,9 @@ border: none;
     .stamps{
         padding-top: 50%;
     }
+    .card-section button{
+    top: 65%;
+   }
 }
 
 .award-section{
