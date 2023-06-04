@@ -491,7 +491,7 @@ sup{
     border: none;
     color: var(---font-color);
     position: absolute;
-    top: 80%;
+    top: 65%;
     transform: translateX(20px);
     z-index: 1;
 }
