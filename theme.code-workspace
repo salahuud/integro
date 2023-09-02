@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "integro",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "theme"
+	}
+}

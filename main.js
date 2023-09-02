@@ -30,3 +30,28 @@ window.addEventListener('scroll', (() => {
   stickyNav.classList.toggle('sticky', window.scrollY )
   console.log('sticky')
 }))
+
+const countElements = document.querySelectorAll(".count");
+
+// Function to animate the count from 0 to the specified target
+function animateCount() {
+    countElements.forEach((element) => {
+        const target = parseInt(element.getAttribute("data-target"));
+        let count = 0;
+        const duration = 5000; // Animation duration in milliseconds
+        const step = 50; // Time interval between each step
+
+        const interval = setInterval(() => {
+            element.textContent = count;
+            count += Math.ceil(target / (duration / step));
+
+            if (count >= target) {
+                element.textContent = target;
+                clearInterval(interval);
+            }
+        }, step);
+    });
+}
+
+// Call the animation function when the page loads
+window.addEventListener("load", animateCount);
