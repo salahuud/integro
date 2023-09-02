@@ -622,11 +622,13 @@ border: none;
 }
 .award-sect-container{
     width: 90%;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:5em auto;
+    margin:3em auto;
+    padding: 1em 0;
 }
 .award-section{
     text-align: center;
