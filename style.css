@@ -622,11 +622,7 @@ border: none;
 }
 .award-sect-container{
     width: 90%;
-<<<<<<< Updated upstream
-    height: 80vh;
-=======
     height: fit-content;
->>>>>>> Stashed changes
     display: flex;
     flex-direction: column;
     justify-content: center;
