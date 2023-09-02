@@ -46,7 +46,7 @@ function animateCount() {
             count += Math.ceil(target / (duration / step));
 
             if (count >= target) {
-                element.textContent = target;
+                element.textContent = target+'+';
                 clearInterval(interval);
             }
         }, step);
